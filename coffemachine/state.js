@@ -4,9 +4,9 @@ const coffeeStock = {
     liberica: 200
 }
 
-module.exports = coffeeStock;
+const isCoffeMachineReady = true;
 
-/*
-untuk melihat nilai dari module pada berkas ini
+module.exports = {coffeeStock, isCoffeMachineReady};
+
+// untuk melihat nilai dari module pada berkas ini
 console.log(module);
-*/
