@@ -21,7 +21,7 @@
 
 // makeCoffee("robusta", 80);
 
-// export beberapa nilai
+// import beberapa nilai
 // const {coffeeStock, isCoffeMachineReady} = require('./state');
 
 // console.log(coffeeStock);
