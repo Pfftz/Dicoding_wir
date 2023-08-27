@@ -5,3 +5,17 @@ console.log("Mencampurkan air dan kopi");
 console.log("Menuangkan kopi ke dalam gelas");
 console.log("Menuangkan susu ke dalam gelas");
 console.log("Kopi Anda sudah siap!");
+
+const coffeeStock = require('./state');
+
+console.log(coffeeStock);
+
+const makeCoffee = (type, miligrams) => {
+    if (coffeeStock[type] >= miligrams) {
+        console.log("Kopi berhasil dibuat!");
+    } else {
+        console.log("Biji kopi habis!");
+    }
+}
+
+makeCoffee("robusta", 80);
