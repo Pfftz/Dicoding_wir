@@ -5,8 +5,9 @@ const coffeeStock = {
 }
 
 const isCoffeMachineReady = true;
+// module.exports = {coffeeStock, isCoffeMachineReady};
 
-module.exports = {coffeeStock, isCoffeMachineReady};
+export {coffeeStock, isCoffeMachineReady};
 
 // untuk melihat nilai dari module pada berkas ini
-console.log(module);
+// console.log(module);
