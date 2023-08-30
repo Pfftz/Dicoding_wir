@@ -1,4 +1,4 @@
-const { getUser, getWeather } = require('./utils');
+import { getUser, getWeather } from './utils';
 
 function getUserWeather(userId) {
     let user;
