@@ -34,20 +34,29 @@ function goInsideCinema(ticket) {
     });
 }
 
+// function watchMovie() {
+//     withDrawMoney(10)
+//         .then((money) => {
+//             return buyCinemaTicket(money);
+//         })
+//         .then((ticket) => {
+//             return goInsideCinema(ticket);
+//         })
+//         .then((result) => {
+//             console.log(result);
+//         })
+//         .catch((error) => {
+//             console.log(error.message);
+//         });
+// }
+
+//versi simplified
 function watchMovie() {
     withDrawMoney(10)
-        .then((money) => {
-            return buyCinemaTicket(money);
-        })
-        .then((ticket) => {
-            return goInsideCinema(ticket);
-        })
-        .then((result) => {
-            console.log(result);
-        })
-        .catch((error) => {
-            console.log(error.message);
-        });
+        .then((money) => buyCinemaTicket(money))
+        .then((ticket) => goInsideCinema(ticket))
+        .then((result) => console.log(result))
+        .catch((error) => console.log(error.message));
 }
 
 watchMovie();
