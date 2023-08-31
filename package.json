@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "name": "nodejs-njir",
+  "description": "repository for dicoding file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pfftz",
+  "license": "ISC"
 }
