@@ -1,12 +1,12 @@
-function averageExams(valuesExam) {
+const averageExams = (valuesExam) => {
     const numberValidation = valuesExam.every(exam => typeof exam === 'number');
     if (!numberValidation) throw Error('please input number');
 
     const sumValues = valuesExam.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
     return sumValues / valuesExam.length;
-}
+};
 
-function isStudentPassExam(valuesExam, name) {
+const isStudentPassExam = (valuesExam, name) => {
     const minValues = 75;
     const average = averageExams(valuesExam);
 
@@ -17,6 +17,6 @@ function isStudentPassExam(valuesExam, name) {
         console.log(`${name} fail the exams`);
         return false;
     }
-}
+};
 
-export default { averageExams, isStudentPassExam };
+module.exports = { averageExams, isStudentPassExam };

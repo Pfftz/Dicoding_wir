@@ -1,3 +1,5 @@
+//penulisan unit test untuk kode averageExams
+
 const { averageExams } = require('../gradecalculations');
 
 test('it should return exact average', () => {
