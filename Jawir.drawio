@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T13:59:38.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="CsA9d4TL0QLHixjCOaf6" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T14:02:45.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="S3KSh7SPPKz9RdJ6JoIB" version="21.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="335" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,23 +34,32 @@
         <mxCell id="KEqb4RWPD_NxYEXrF4Ul-9" value="Menampilkan detail lowongan pekerjaan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="647" y="310" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="KEqb4RWPD_NxYEXrF4Ul-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KEqb4RWPD_NxYEXrF4Ul-12" target="KEqb4RWPD_NxYEXrF4Ul-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KEqb4RWPD_NxYEXrF4Ul-12" value="Halaman detail lowongan pekerjaan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="637" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEqb4RWPD_NxYEXrF4Ul-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KEqb4RWPD_NxYEXrF4Ul-14" target="KEqb4RWPD_NxYEXrF4Ul-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KEqb4RWPD_NxYEXrF4Ul-14" value="Melamar lowongan pekerjaan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="430" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="KEqb4RWPD_NxYEXrF4Ul-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KEqb4RWPD_NxYEXrF4Ul-15" target="KEqb4RWPD_NxYEXrF4Ul-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KEqb4RWPD_NxYEXrF4Ul-15" value="Melakukan tes dan wawancara" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KEqb4RWPD_NxYEXrF4Ul-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KEqb4RWPD_NxYEXrF4Ul-16" target="KEqb4RWPD_NxYEXrF4Ul-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KEqb4RWPD_NxYEXrF4Ul-16" value="Halaman lamaran pekerjaan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KEqb4RWPD_NxYEXrF4Ul-17" value="Halaman tes dan wawancara" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KEqb4RWPD_NxYEXrF4Ul-18" value="Konfirmasi&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="657" y="530" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
